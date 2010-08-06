@@ -4,7 +4,7 @@ let mapleader = ","		            " The comma shall be your <Leader>.
 
 silent! call pathogen#runtime_append_all_bundles()
 
-syntax enable                     " Turn on syntax highlighting.
+syntax enable
 filetype plugin indent on         " Turn on file type detection.
 
 runtime macros/matchit.vim        " Load the matchit plugin.
@@ -48,8 +48,11 @@ set laststatus=2                  " Show the status line all the time
 " Useful status information at bottom of screen
 set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{fugitive#statusline()}%{exists('*CapsLockStatusline')?CapsLockStatusline():''}%=%-16(\ %l,%c-%v\ %)%P
 
-" Or use vividchalk
-colorscheme vividchalk
+" Use pretty colors
+colorscheme railscasts
+
+"Split new windows below
+set sb
 
 " Tab mappings.
 map <leader>tt :tabnew<cr>
@@ -62,15 +65,9 @@ map <leader>tf :tabfirst<cr>
 map <leader>tl :tablast<cr>
 map <leader>tm :tabmove
 
-" Uncomment to use Jamis Buck's file opening plugin
-"map <Leader>t :FuzzyFinderTextMate<Enter>
-
-" Controversial...swap colon and semicolon for easier commands
-"nnoremap ; :
-"nnoremap : ;
-
-"vnoremap ; :
-"vnoremap : ;
+" NERDtree shortcuts
+map <Leader>dt  :NERDTreeToggle<Enter>
+map <Leader>dl  :NERDTreeFind<Enter>  
 
 " Automatic fold settings for specific files. Uncomment to use.
 " autocmd FileType ruby setlocal foldmethod=syntax
@@ -78,5 +75,3 @@ map <leader>tm :tabmove
 
 " For the MakeGreen plugin and Ruby RSpec. Uncomment to use.
 autocmd BufNewFile,BufRead *_spec.rb compiler rspec
-
-

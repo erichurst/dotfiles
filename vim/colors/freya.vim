@@ -6,7 +6,7 @@ if exists("syntax_on")
     syntax reset
 endif
 
-let colors_name = "freya"
+let g:colors_name = "freya"
 
 hi Normal ctermbg=0 ctermfg=7 cterm=none guibg=#2a2a2a guifg=#dcdccc gui=none
 
@@ -56,7 +56,7 @@ hi VisualNOS guibg=bg guifg=#c0aa94 gui=bold,underline
 hi WarningMsg guibg=bg guifg=#f07070 gui=none
 hi WildMenu guibg=#c0aa94 guifg=bg gui=bold
 
-hi Comment guibg=bg guifg=#c2b680 gui=none
+hi Comment guibg=bg guifg=#B8B8B8 guibg=#333333 gui=none 
 hi Constant guibg=bg guifg=#afe091 gui=none
 hi Error guibg=bg guifg=#f07070 gui=none
 hi Identifier guibg=bg guifg=#dabfa5 gui=none
