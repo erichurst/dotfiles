@@ -12,4 +12,4 @@ set guioptions-=T                 " Hide toolbar.
 set guioptions-=r                 " Don't show right scrollbar
 set guioptions-=l                 " Don't show left scrollbar
 
-colorscheme railscasts
+colorscheme tir_black

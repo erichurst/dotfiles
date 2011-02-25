@@ -55,6 +55,9 @@ colorscheme sienna
 "Split new windows below
 set sb
 
+" Ack mappings
+nnoremap <Leader>a :Ack -i 
+
 " Tab mappings.
 map <leader>tt :tabnew<cr>
 map <leader>te :tabedit
@@ -73,6 +76,8 @@ map <Leader>dl  :NERDTreeFind<Enter>
 " Automatic fold settings for specific files. Uncomment to use.
 autocmd FileType ruby setlocal foldmethod=syntax
 autocmd FileType css  setlocal foldmethod=indent shiftwidth=2 tabstop=2
+autocmd Syntax ruby,html,xhtml,haml,erb,css setlocal foldmethod=syntax
+autocmd Syntax ruby,html,xhtml,haml,erb,css normal zR
 
 " For the MakeGreen plugin and Ruby RSpec. Uncomment to use.
 autocmd BufNewFile,BufRead *_spec.rb compiler rspec
