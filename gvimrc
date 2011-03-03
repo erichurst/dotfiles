@@ -12,4 +12,6 @@ set guioptions-=T                 " Hide toolbar.
 set guioptions-=r                 " Don't show right scrollbar
 set guioptions-=l                 " Don't show left scrollbar
 
+set tabstop=2                    " Global tab width.
+
 colorscheme tir_black
