@@ -16,3 +16,6 @@
 [submodule "vim/bundle/vim-makgreen"]
 	path = vim/bundle/vim-makgreen
 	url = https://github.com/reinh/vim-makegreen.git
+[submodule "vim/bundle/supertab"]
+	path = vim/bundle/supertab
+	url = https://github.com/ervandew/supertab.git
