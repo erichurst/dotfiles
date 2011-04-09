@@ -27,6 +27,7 @@ set ruler                         " Show cursor position.
 
 set incsearch                     " Highlight matches as you type.
 set hlsearch                      " Highlight matches.
+nnoremap <esc> :noh<return><esc>  " Press escape to clear highlights
 
 "set wrap                          " Turn on line wrapping.
 set nowrap                        " Turn off line wrapping.
@@ -58,7 +59,7 @@ colorscheme solarized
 set sb
 
 " Ack mappings
-nnoremap <Leader>a :Ack -i 
+nnoremap <Leader>a :Ack -ia
 
 " Tab mappings.
 map <leader>tt :tabnew<cr>
