@@ -2,6 +2,7 @@ set nocompatible                  " Must come first because it changes other opt
 
 let mapleader = ","		            " The comma shall be your <Leader>.
 
+call pathogen#helptags()
 silent! call pathogen#runtime_append_all_bundles()
 
 syntax enable
@@ -27,7 +28,7 @@ set ruler                         " Show cursor position.
 
 set incsearch                     " Highlight matches as you type.
 set hlsearch                      " Highlight matches.
-nnoremap <esc> :noh<return><esc>  " Press escape to clear highlights
+nnoremap <leader>xh :noh<cr>      " removes highlights from file search
 
 "set wrap                          " Turn on line wrapping.
 set nowrap                        " Turn off line wrapping.
