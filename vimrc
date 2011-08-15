@@ -53,7 +53,7 @@ set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{fugitive#statusline()}%{exists('*Cap
 
 " Use pretty colors
 set background=light
-let g:solarized_termcolors=256
+let g:solarized_termcolors=16
 colorscheme solarized
 
 "Split new windows below
