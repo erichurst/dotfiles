@@ -4,7 +4,7 @@
 set guifont=Menlo:h12             " Font family and font size.
 set antialias                     " MacVim: smooth fonts.
 set encoding=utf-8                " Use UTF-8 everywhere
-set lines=98 columns=293          " Window dimensions.
+set lines=82 columns=241          " Window dimensions.
 set nowrap
 
 set guioptions-=T                 " Hide toolbar.
@@ -14,4 +14,5 @@ set guioptions-=l                 " Don't show left scrollbar
 set tabstop=2                    " Global tab width.
 
 set background=light              " Background.
+set colorcolumn=100              " Character limit
 colorscheme solarized
