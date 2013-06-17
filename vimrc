@@ -53,9 +53,9 @@ set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{fugitive#statusline()}%{exists('*Cap
 
 " Use pretty colors
 set colorcolumn=100              " Character limit
-set background=light
-let g:solarized_termcolors=16
-colorscheme solarized
+"set background=light
+" let g:solarized_termcolors=16
+colorscheme github
 
 "Split new windows below
 set sb
