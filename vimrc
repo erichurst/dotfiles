@@ -86,3 +86,6 @@ autocmd Syntax ruby,html,xhtml,haml,erb,css normal zR
 
 " For the MakeGreen plugin and Ruby RSpec. Uncomment to use.
 autocmd BufNewFile,BufRead *_spec.rb compiler rspec
+
+" CtrlP mappings
+let g:ctrlp_map = '<leader>f'
