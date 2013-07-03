@@ -2,11 +2,13 @@ set nocompatible                  " Must come first because it changes other opt
 
 let mapleader = ","		            " The comma shall be your <Leader>.
 
-call pathogen#helptags()
-silent! call pathogen#runtime_append_all_bundles()
 
+execute pathogen#infect()
+Helptags
 syntax enable
 filetype plugin indent on         " Turn on file type detection.
+"silent! call pathogen#runtime_append_all_bundles()
+
 
 runtime macros/matchit.vim        " Load the matchit plugin.
 
@@ -89,3 +91,6 @@ autocmd BufNewFile,BufRead *_spec.rb compiler rspec
 
 " CtrlP mappings
 let g:ctrlp_map = '<leader>f'
+
+" SuperTab Settings
+" let g:SuperTabNoCompleteAfter = ['^', ',', '\s']
