@@ -10,9 +10,6 @@
 [submodule "vim/bundle/vim-tcomment"]
 	path = vim/bundle/vim-tcomment
 	url = https://github.com/tsaleh/vim-tcomment.git
-[submodule "vim/bundle/vim-snipmate"]
-	path = vim/bundle/vim-snipmate
-	url = https://github.com/msanders/snipmate.vim.git
 [submodule "vim/bundle/vim-makgreen"]
 	path = vim/bundle/vim-makgreen
 	url = https://github.com/reinh/vim-makegreen.git
