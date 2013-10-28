@@ -54,10 +54,10 @@ set laststatus=2                  " Show the status line all the time
 set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{fugitive#statusline()}%{exists('*CapsLockStatusline')?CapsLockStatusline():''}%=%-16(\ %l,%c-%v\ %)%P
 
 " Use pretty colors
-set colorcolumn=100              " Character limit
-set background=dark
-let g:solarized_termcolors=16
-colorscheme solarized
+" set colorcolumn=100              " Character limit
+" set background=light
+" let g:solarized_termcolors=16
+" colorscheme solarized
 
 "Split new windows below
 set sb
