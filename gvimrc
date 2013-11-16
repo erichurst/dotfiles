@@ -13,6 +13,6 @@ set guioptions-=l                 " Don't show left scrollbar
 
 set tabstop=2                    " Global tab width.
 
-set background=light              " Background.
+set background=dark              " Background.
 set colorcolumn=100              " Character limit
 colorscheme solarized
