@@ -81,9 +81,9 @@ map <Leader>dt  :NERDTreeToggle<Enter>
 map <Leader>dl  :NERDTreeFind<Enter>  
 
 " Automatic fold settings for specific files. Uncomment to use.
-autocmd FileType ruby setlocal foldmethod=syntax
+autocmd FileType ruby setlocal foldmethod=indent
 autocmd FileType css  setlocal foldmethod=indent shiftwidth=2 tabstop=2
-autocmd Syntax ruby,html,xhtml,haml,erb,css setlocal foldmethod=syntax
+autocmd Syntax ruby,html,xhtml,haml,erb,css setlocal foldmethod=indent
 autocmd Syntax ruby,html,xhtml,haml,erb,css normal zR
 
 " For the MakeGreen plugin and Ruby RSpec. Uncomment to use.
