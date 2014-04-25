@@ -4,6 +4,9 @@
 [submodule "vim/bundle/vim-ragtag"]
 	path = vim/bundle/vim-ragtag
 	url = https://github.com/tpope/vim-ragtag.git
+[submodule "vim/bundle/vim-colors-solarized"]
+	path = vim/bundle/vim-colors-solarized
+	url = https://github.com/altercation/solarized.git
 [submodule "vim/bundle/vim-surround"]
 	path = vim/bundle/vim-surround
 	url = https://github.com/tpope/vim-surround.git
@@ -64,3 +67,6 @@
 [submodule "vim-snippets"]
 	path = vim-snippets
 	url = git://github.com/honza/vim-snippets.git
+[submodule "vim-holylight"]
+  path = vim/bundle/vim-holylight
+  url = https://github.com/Dinduks/vim-holylight.git
