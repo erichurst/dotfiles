@@ -15,4 +15,4 @@ set tabstop=2                    " Global tab width.
 
 " set background=light              " Background.
 set colorcolumn=100              " Character limit
-colorscheme solarized
+" colorscheme solarized
