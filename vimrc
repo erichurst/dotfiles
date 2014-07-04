@@ -55,16 +55,15 @@ set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{fugitive#statusline()}%{exists('*Cap
 
 " Use pretty colors
 " set colorcolumn=100              " Character limit
-" set background=light
+set background=light
 let g:solarized_termcolors=16
-" colo solarized
-let g:colors_name = "solarized"
+colo solarized
 
 "Split new windows below
 set sb
 
 " Ack mappings
-nnoremap <Leader>a :Ack -ia
+nnoremap <Leader>a :Ack -ik
 
 " Tab mappings.
 map <leader>tt :tabnew<cr>
