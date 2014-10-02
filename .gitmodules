@@ -55,9 +55,6 @@
 [submodule "vim/bundle/syntastic"]
 	path = vim/bundle/syntastic
 	url = git://github.com/scrooloose/syntastic.git
-[submodule "tlib_vim"]
-	path = tlib_vim
-	url = git://github.com/tomtom/tlib_vim.git
 [submodule "vim-holylight"]
   path = vim/bundle/vim-holylight
   url = https://github.com/Dinduks/vim-holylight.git
@@ -70,3 +67,6 @@
 [submodule "vim/bundle/vim-snippets"]
 	path = vim/bundle/vim-snippets
 	url = git://github.com/honza/vim-snippets.git
+[submodule "vim/bundle/vim-snipmate"]
+	path = vim/bundle/vim-snipmate
+	url = git://github.com/garbas/vim-snipmate.git
