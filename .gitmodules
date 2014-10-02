@@ -55,18 +55,18 @@
 [submodule "vim/bundle/syntastic"]
 	path = vim/bundle/syntastic
 	url = git://github.com/scrooloose/syntastic.git
-[submodule "vim-addon-mw-utils"]
-	path = vim-addon-mw-utils
-	url = git://github.com/MarcWeber/vim-addon-mw-utils.git
 [submodule "tlib_vim"]
 	path = tlib_vim
 	url = git://github.com/tomtom/tlib_vim.git
-[submodule "vim-snipmate"]
-	path = vim-snipmate
-	url = git://github.com/garbas/vim-snipmate.git
-[submodule "vim-snippets"]
-	path = vim-snippets
-	url = git://github.com/honza/vim-snippets.git
 [submodule "vim-holylight"]
   path = vim/bundle/vim-holylight
   url = https://github.com/Dinduks/vim-holylight.git
+[submodule "vim/bundle/tlib_vim"]
+	path = vim/bundle/tlib_vim
+	url = git://github.com/tomtom/tlib_vim.git
+[submodule "vim/bundle/vim-addon-mw-utils"]
+	path = vim/bundle/vim-addon-mw-utils
+	url = git://github.com/MarcWeber/vim-addon-mw-utils.git
+[submodule "vim/bundle/vim-snippets"]
+	path = vim/bundle/vim-snippets
+	url = git://github.com/honza/vim-snippets.git
